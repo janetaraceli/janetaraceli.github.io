@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Tangerine:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+
+}
+
+
+@media (max-width: 568px) {
+    header ol {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+header ol{
+    display: flex;
+    flex-direction: row;
+}
+header ol li{
+    margin: 20px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+body{
+        background-image: url('./img/fondo.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+a{
+    color: rgb(224, 10, 10);
+    font-size: 15px;
+    text-decoration: none;
+    
+
+}
+    
+
+.rosas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rosas h1{
+    font-size: 40px;
+font-family: 'Ysabeau SC', sans-serif;
+    color: rgb(247, 6, 6);
+}
+
+.rosas p{
+    color: #ffffff;
+    width: 70%;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+font-family: 'Tangerine', cursive;
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+   
+
+}
+.caja{
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+.caja h1{
+    color: rgb(247, 6, 6);
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 40px;      
+
+}
+
+.caja p{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Tangerine', cursive; 
+
+}
+
+footer{
+    text-align: center;
+     color: rgb(201, 6, 6); 
+     font-size: 25px;
+     font-family: 'Nanum Myeongjo', serif;
+     font-family: 'Tangerine', cursive;
+     }
+  

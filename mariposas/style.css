@@ -1,0 +1,82 @@
+/* Personaliza el estilo aquí */
+.logo-img {
+    width: 100px; 
+/* Tamaño del logo */
+  }
+  
+  .carousel-item img {
+    object-fit: cover; /* Ajusta las imágenes al mismo tamaño */
+  }
+  
+  .carousel-caption {
+    background-color: pink; /* Fondo rosa para el texto */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  .footer {
+    background-color: #f8f9fa; /* Color de fondo del pie de página */
+    padding: 20px;
+  }
+  
+  article {
+    background-color: #fff; /* Color de fondo del área del artículo */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  img{
+    width: 500px;
+    height: 500px;
+  }
+  .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+  body{
+    background-image: url('./imagenes/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+article {
+    text-align: center; /* Centra el contenido del article */
+    background-color: rgb(159, 183, 250);
+  }
+  
+  p {
+    display: inline-block; /* Hace que el párrafo sea un bloque en línea */
+  }
+  
+  
+
+  .text {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .trivia {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .question {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

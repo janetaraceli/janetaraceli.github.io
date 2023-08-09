@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header ol {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: pink;
+width: 100%;
+
+}
+header ul{
+    list-style: none;
+display: flex;
+flex-direction: row;
+}
+header ul li{
+margin: 10px;
+
+}
+
+img{
+    width: 150px;
+    }
+
+h1{
+    font-size: 34px;
+    color:rgb(35, 35, 72);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+p{
+    font-size:20px ;
+    color: rgb(74, 67, 67);
+}
+.contenedor{
+   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(245, 199, 214);
+
+}
+.caja{
+width: 100%;
+height: 100%;
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+.caja img{
+    border-radius: 100%;
+    padding: 10px;
+
+}
+.caja p{
+    font-size: 12px;
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ .presentacion h1{
+    font-size: 35px;
+    color: rgb(83, 67, 99);
+    font-family: 'Arvo', serif;
+  }
+
+   .presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'VT323', monospace;
+   }
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
